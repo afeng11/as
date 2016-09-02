@@ -512,7 +512,7 @@ function resetParentHeight(){
 <table width="98%" border="1" align="center" cellpadding="4" cellspacing="0" class="table1px" id="cpu">
 <tr>
 <td >
-<div class="title">处理器</div>
+<div class="title">CPU</div>
 <img class="line_image" src="/images/New_ui/networkmap/linetwo2.png">
 </td>
 </tr >
@@ -568,21 +568,21 @@ function resetParentHeight(){
 <table width="98%" border="1" align="center" cellpadding="4" cellspacing="0" class="table1px">
 <tr>
 <td colspan="3">
-<div class="title">内存</div>
+<div class="title">RAM</div>
 <img class="line_image" src="/images/New_ui/networkmap/linetwo2.png">
 </td>
 </tr>
 <tr class="ram_table">
 <td>
-<div>已用</div>
+<div>Used</div>
 <div id="ram_used_info"></div>
 </td>
 <td>
-<div>空闲</div>
+<div>Free</div>
 <div id="ram_free_info"></div>
 </td>
 <td>
-<div>总共</div>
+<div>Total</div>
 <div id="ram_total_info"></div>
 </td>
 </tr>
@@ -651,17 +651,17 @@ function resetParentHeight(){
 <table width="98%" border="1" align="center" cellpadding="4" cellspacing="0" class="table1px">
 <tr>
 <td colspan="2">
-<div class="title">网络</div>
+<div class="title">Internet</div>
 <img class="line_image" src="/images/New_ui/networkmap/linetwo2.png">
 </td>
 </tr>
 <tr class="ram_table">
 <td>
-<div>下载</div>
+<div>Download</div>
 <div id="download_speed" style="color: #FF9000;">0 KB/s</div>
 </td>
 <td>
-<div>上传</div>
+<div>Upload</div>
 <div id="upload_speed" style="color: #3CF;">0 KB/s</div>
 </td>
 </tr>
@@ -711,31 +711,31 @@ function resetParentHeight(){
 <table width="98%" border="1" align="center" cellpadding="4" cellspacing="0" class="table1px">
 <tr>
 <td>
-<div class="title">系统</div>
+<div class="title">SYSTEM</div>
 <img class="line_image" src="/images/New_ui/networkmap/linetwo2.png">
 </td>
 </tr>
 <tr class="other_info_table">
 <td>
-<div class="info_title">开机时间</div>
-<div class="info_detail"><span id="boot_days"></span> 天 <span id="boot_hours"></span> 时 <span id="boot_minutes"></span> 分 <span id="boot_seconds"></span> 秒</div>
+<div class="info_title">Uptime</div>
+<div class="info_detail"><span id="boot_days"></span> day(s) <span id="boot_hours"></span> hour(s) <span id="boot_minutes"></span> minute(s) <span id="boot_seconds"></span> second(s)</div>
 </td>
 </tr>
 <tr class="other_info_table">
 <td>
-<div class="info_title">温度</div>
+<div class="info_title">Temperature</div>
 <div class="info_detail" id="temp_td"></div>
 </td>
 </tr>
 <tr class="other_info_table">
 <td>
-<div class="info_title">处理器频率</div>
+<div class="info_title">CPU Frequency</div>
 <div class="info_detail"><span><% sysinfo("cpu.freq"); %></span> MHz</div>
 </td>
 </tr>
 <tr class="other_info_table">
 <td style="padding-bottom: 8px;">
-<div class="info_title">处理器负载 (1, 5, 15 分钟)</div>
+<div class="info_title">CPU Load Average (1, 5, 15 mins)</div>
 <div class="info_detail">
 <span><% sysinfo("cpu.load.1"); %></span>,&nbsp;
 <span><% sysinfo("cpu.load.5"); %></span>,&nbsp;
