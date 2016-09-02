@@ -1,6 +1,6 @@
 #!/bin/sh
 root_path=''
-remote_file=https://raw.githubusercontent.com/thesadboy/nick-merlin-web/master/device-map/router_status.asp
+remote_file=https://raw.githubusercontent.com/davetai/as/master/device-map/router_status.asp
 path=$root_path/jffs/merlin-web/device-map/
 file=router_status.asp
 wwwfile=/www/device-map/router_status.asp
