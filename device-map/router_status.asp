@@ -718,12 +718,12 @@ function resetParentHeight(){
 <tr class="other_info_table">
 <td>
 <div class="info_title">Uptime</div>
-<div class="info_detail"><span id="boot_days"></span> day(s) <span id="boot_hours"></span> hour(s) <span id="boot_minutes"></span> minute(s) <span id="boot_seconds"></span> second(s)</div>
+<div class="info_detail"><span id="boot_days"></span> 天 <span id="boot_hours"></span> 时 <span id="boot_minutes"></span> 分 <span id="boot_seconds"></span> 秒</div>
 </td>
 </tr>
 <tr class="other_info_table">
 <td>
-<div class="info_title">Temperature</div>
+<div class="info_title">Temperatures</div>
 <div class="info_detail" id="temp_td"></div>
 </td>
 </tr>
