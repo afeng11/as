@@ -651,7 +651,7 @@ function resetParentHeight(){
 <table width="98%" border="1" align="center" cellpadding="4" cellspacing="0" class="table1px">
 <tr>
 <td colspan="2">
-<div class="title">Internet</div>
+<div class="title">INTERNET</div>
 <img class="line_image" src="/images/New_ui/networkmap/linetwo2.png">
 </td>
 </tr>
